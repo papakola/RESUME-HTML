@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;700&family=Exo+2:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>РЕЗЮМЕ</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Алексей</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>Домой
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Профиль
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Образование
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Навыки
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>Опыт
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>Сертификаты, дипломы
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#references" class="nav__link">
+                <i class="bx bx-link-external nav__icon"></i>Ссылки
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="assets/img/perfil.jpg" alt="" class="home__img" />
+                <h1 class="home__title">ПЕТРОВ АЛЕКСЕЙ</h1>
+                <h3>АЛЕКСАНДРОВИЧ</h3>
+                <h3 class="home__profession">
+                  научный сотрудник,<br />
+                  IT-специалист, инженер
+                </h3>
+                <div>
+                  <a
+                    download=""
+                    href="assets/pdf/ResumeCv.pdf"
+                    class="home__button-movil"
+                    >Скачать</a
+                  >
+                </div>
+
+                <!-- <div class="about__info bd-grid"> -->
+
+                <div class="about__content">
+                  <div class="about__line"></div>
+                  <div class="title__about">Дата рождения:</div>
+                  <div class="data__about">18.06.1981 (41)</div>
+                  <div class="about__line"></div>
+                  <div class="title__about">Семейное положение:</div>
+                  <div class="data__about">женат</div>
+                  <div class="about__line"></div>
+                  <div class="title__about">Национальность:</div>
+                  <div class="data__about">русский</div>
+                  <div class="about__line"></div>
+                  <div class="title__about">Языки:</div>
+                  <div class="data__about">английский (A2)</div>
+                  <div class="about__line"></div>
+                </div>
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                  <h2 class="section-title">Навыки</h2>
+                  <div class="keyskills__container">
+                    <div class="skills__data">Геоэкотехнологии</div>
+                    <div class="skills__data">Научная работа</div>
+                    <div class="skills__data">Публикации</div>
+                    <div class="skills__data">Отчеты НИР</div>
+                    <div class="skills__data">Информационные системы</div>
+                    <div class="skills__data">
+                      Автоматизированные системы мониторинга
+                    </div>
+                    <div class="skills__data">Разработка ПО</div>
+                    <div class="skills__data">WEB-приложения</div>
+                    <div class="skills__data">Frontend</div>
+                    <div class="skills__data">Backend</div>
+                    <div class="skills__data">Базы данных</div>
+                    <div class="skills__data">
+                      Разработка аппаратных средств
+                    </div>
+                    <div class="skills__data">Микроэлектроника</div>
+                    <div class="skills__data">Микроконтроллеры</div>
+                    <div class="skills__data">Администрирование</div>
+                  </div>
+                </section>
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                  <h2 class="section-title">Образование</h2>
+                  <div class="education__container bd-grid">
+                    <div class="education__content">
+                      <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                      </div>
+                      <div class="education__data bd-grid">
+                        <span class="education__year">2021</span>
+                        <h3 class="education__title">
+                          Курс PYTHON: основы и применение
+                        </h3>
+
+                        <span class="education__studies"
+                          >BIOINFORMATICS INSTITUTE</span
+                        >
+                        <span class="education__studies">Сертификат</span>
+                      </div>
+                    </div>
+
+                    <div class="education__content">
+                      <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                      </div>
+                      <div class="education__data bd-grid">
+                        <span class="education__year">2008</span>
+                        <h3 class="education__title">СПЕЦИАЛИСТ ArcGIS</h3>
+
+                        <span class="education__studies"
+                          >Кольский геологический информационно-лабораторный
+                          центр</span
+                        >
+                        <span class="education__studies">Сертификат</span>
+                      </div>
+                    </div>
+
+                    <div class="education__content">
+                      <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <!-- <span class="education__line"></span> -->
+                      </div>
+                      <div class="education__data bd-grid">
+                        <span class="education__year">1998 - 2003</span>
+                        <h3 class="education__title">ИНЖЕНЕР АСОИУ</h3>
+
+                        <span class="education__studies"
+                          >Петрозаводский Государственный Унивеситет</span
+                        >
+                        <span class="education__studies"
+                          >факультет прикладной математики и информатики,
+                          специальность АСОИУ</span
+                        >
+                        <span class="education__studies">Диплом</span>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+               
+              </div>
+            </div>
+            <!-- Theme change button -->
+
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Генерировать PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">КОНТАКТЫ</h2>
+            <p class="profile__description">
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i>Россия, Мурманская обл.,
+                  г. Апатиты
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i
+                  >aleksey-petroff@yandex.ru
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i>
+                  <i class="bx bxl-whatsapp home__icon"></i>+7(911) 804-62-46
+                </span>
+              </div>
+            </p>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">РЕСУРСЫ</h2>
+            <div class="social__container bd-grid">
+              <a
+                href="https://github.com/papakola"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social__icon"></i> GitHub @Papakola
+              </a>
+              <a
+                href="https://facebook.com/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-youtube social__icon"></i> YouTube @FOGDIY
+              </a>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== EXPERIENCE ==========-->
+
+          <section class="experience section" id="experience">
+            <h2 class="section-title">О СЕБЕ</h2>
+            <div class="experience__container bd-grid">
+              <p class="experience__description">
+               Профессиональный интерес в области информационных технологий: разработка программного обеспечения, Web-разработка, 
+               системное администрирование, разработка электронных устройств, программирование микроконтроллеров.  
+               Имею опыт научной деятельности в Академическом институте - подготовка материалов к отчетам НИР, публикация статей. Личные качества: ответственность,
+               исполнительность, обучаемость, добросовестность
+              </p>              
+            </div>
+          </section>
+
+
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Опыт работы</h2>
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">2018 - н.в. <br> Научный сотрудник</h3>
+                  <span class="experience__company"
+                    >Горный институт ФИЦ КНЦ РАН <br>
+                    Фундаментальные и прикладные исследования в области
+                    комплексного освоения минеральных ресурсов</span
+                  >
+
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Участие в выполнении научных государственных заданий,
+                    программ Президиума РАН, Отделения наук о Земле, проектов по
+                    грантам Российского Научного Фонда
+                  </p>
+                  </div>
+
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Подготовка научных статей для публикаций, участие в работе
+                    конференций с докладами и презентациями результатов научной
+                    деятельности лаборатории
+                  </p>
+                  </div>
+
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Участие в разработке разработал Системы комплексного
+                    мониторинга динамики восстановления природных экосистем,
+                    нарушенных при освоении георесурсов с применением
+                    современных средств геоинформационного проектирования
+                  </p>
+                  </div>
+
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Разработка Информационной системы поддержки принятия решений
+                    по восстановлению природных экосистем в рамках современной
+                    международной стратегии - «ecological restoration»
+                  </p>
+                  </div>
+
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Разработка автоматизированной Системы комплексного
+                    мониторинга атмосферы карьера при ведении открытых горных
+                    работ 
+                  </p>
+                  </div>
+
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Авторский надзор, методическая и техническая поддержка
+                    программных и аппаратных средств Системы комплексного
+                    мониторинга атмосферы карьера при её эксплуатации на руднике
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Технико-эксплуатационный контроль аппаратного и программного
+                    обеспечения лаборатории
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Администрирование локальной вычислительной сети лаборатории,
+                    резервирование и архивацию рабочих материалов, формирующихся
+                    в компьютерной сети лаборатории
+                  </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">2008 - 2018 <br> Ведущий программист</h3>
+                  <span class="experience__company">
+                    Горный институт ФИЦ КНЦ РАН<br>
+                    Фундаментальные и прикладные исследования в области
+                    комплексного освоения минеральных ресурсов
+                    </span
+                  >
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Участие в выполнении научных государственных заданий,
+                    программ Президиума РАН, Отделения наук о Земле, проектов по
+                    грантам Российского Научного Фонда
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Cбор, обработка, анализ и систематизация информации,
+                    формирующейся в результате научно-исследовательской
+                    деятельности лаборатории
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Разработка автоматизированной информационно-аналитической
+                    системы обработки и анализа данных мониторинга
+                    восстановления нарушенных земель техногенных ландшафтов
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Разработка информационного ресурса по обеспечению комплекса
+                    исследований проводимых при создании технологий добычи и
+                    переработки редкоземельного и редкометалльного сырья в
+                    рамках межлабораторного проекта по гранту РНФ
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Выполнение работ по установке и наладке научного,
+                    контрольно-измерительного оборудования при проведении
+                    исследований и опытно-промышленных испытаний
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Технико-эксплуатационный контроль аппаратного и программного
+                    обеспечения лаборатории
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Администрирование локальной вычислительной сети лаборатории,
+                    резервирование и архивацию рабочих материалов, формирующихся
+                    в компьютерной сети лаборатории
+                  </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">2005 - 2008 <br> Инженер</h3>
+                  <span class="experience__company"
+                    >ООО "ЛЭНК" <br> Сборка, сервисное обслуживание, ремонт цифровой и
+                    компьютерной техники</span
+                  >
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Разработка и согласование ТЗ на сборку компьютерных
+                    комплексов
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Составление заявок и спецификаций на комплектующие элементы
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Тестирование и проверка комплектующих, сборка и ввод в
+                    эксплуатацию компьютерных цифровых комплексов
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Разработка графиков и выполнение сервисного обслуживания
+                    цифровой и компьютерной техники
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Выполнение гарантийноного и постгарантийного ремонта техники
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Установка и настройка программного обеспечения
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Разработка, внедрение, сопровождение инфраструктуры
+                    локальных сетей
+                  </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  
+                </div>
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">2003 - 2005 <br> Менеджер по продажам</h3>
+                  <span class="experience__company"
+                    >ООО "ЛЭНК-ТРЕЙД" <br> Оптово-розничная продажа цифровой и компьютерной
+                    техники</span
+                  >
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Активный поиск клиентов, ведение клиентской базы
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Проведение презентаций продукции и услуг
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+                  <p class="experience__description">
+                    Подготовка коммерческих предложений, заключение договоров
+                  </p>
+                  </div>
+                  <div class="task__descript">
+                    <i class='bx bx-check check__icon'></i>
+
+                  <p class="experience__description">
+                    Полное сопровождение сделок
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!--========== CERTIFICATES ==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">ПРОЕКТЫ</h2>
+            <div class="certificate__container bd-grid">
+              <h3 class="project__name">
+                Информационная система поддержки принятия решений<br> по восстановлению природных экосистем, <br> нарушенных при освоении георесурсов
+
+              </h3>
+              <div class="task__descript space-around">
+                <div class="project__photo">
+                  <img src="assets/img/is1.png" alt="" class="project__img" />
+                </div>
+                <div class="project__photo">
+                  <img src="assets/img/is2.png" alt="" class="project__img" />
+                </div>
+                <div class="project__photo">
+                  <img src="assets/img/is3.png" alt="" class="project__img" />
+                </div>
+              </div>
+              
+                <a class="pdf__link" href="./assets/pdf/article1.pdf" target="_blank">Дополнительная информация по проекту<i class='bx bxs-file-pdf pdf__icon'></i></a>
+              
+              <div class="experience__description project__description bd-grid">
+                <div class="project__description__label">Обеспечение проекта / используемые технологии:</div>
+                <div class="project__description__text">Инструментарий геоинформационной системы ArcGIS, разработка в IDE Visual Studio, СУБД Microsoft SQL Server, инструменты обработки данных ДЗЗ</div>
+              </div>
+            </div>
+
+
+            <div class="certificate__container bd-grid">
+              <h3 class="project__name">
+                Автоматизированная Система комплексного мониторинга <br>атмосферы карьера при ведении открытых горных работ
+
+              </h3>
+              <div class="task__descript space-around">
+                <div class="project__photo">
+                  <img src="assets/img/sm1.png" alt="" class="project__img" />
+                </div>
+                <div class="project__photo">
+                  <img src="assets/img/sm2.png" alt="" class="project__img" />
+                </div>
+                <div class="project__photo">
+                  <img src="assets/img/sm3.png" alt="" class="project__img" />
+                </div>
+              </div>
+              
+                <a class="pdf__link" href="./assets/pdf/article2.pdf" target="_blank">Дополнительная информация по проекту<i class='bx bxs-file-pdf pdf__icon'></i></a>
+              
+              <div class="experience__description project__description bd-grid">
+                <div class="project__description__label">Обеспечение проекта / используемые технологии:</div>
+                <div class="project__description__text">Микропроцессоры AVR и PIC, проектирование электронных схем в САПР Proteus, разработка прошивок для МК в IDE Atmel Studio,
+                   разработка интегрированной системы коммуникации, разработка программных модулей Системы, разработка рабочей среды оператора Системы в фортаме Web-ресурса, 
+                   разработка серверных модулей, СУБД MySQL</div>
+              </div>
+            </div>
+
+            <div class="certificate__container bd-grid">
+              <h3 class="project__name">
+                REACT Онлайн-мессенджер с авторизацией (учебный проект) 
+
+              </h3>
+              <div class="task__descript space-around">
+                <div class="project__photo">
+                  <img src="assets/img/chat1.png" alt="" class="project__img" />
+                </div>
+                <div class="project__photo">
+                  <img src="assets/img/chat2.png" alt="" class="project__img" />
+                </div>
+                <div class="project__photo">
+                  <img src="assets/img/chat3.png" alt="" class="project__img" />
+                </div>
+              </div>
+              
+                <a class="pdf__link" href="https://chat-react-auth.web.app" target="_blank">Посмотреть проект<i class='bx bx-chevrons-right pdf__icon'></i></a>
+              
+              <div class="experience__description project__description bd-grid">
+                <div class="project__description__label">Обеспечение проекта / используемые технологии:</div>
+                <div class="project__description__text">Firebase backend функционал на основе облачных технологий Google Cloud, база данных Firestore, 
+                  библиотека REACT - разработка компонентов интерфейса, адаптивная верстка, JavaScript, CSS, HTML, Webpack, Node.JS
+                </div>
+              </div>
+            </div>
+
+
+            <div class="certificate__container bd-grid">
+              <h3 class="project__name">
+                REACT Форма для заполнения таблицы ставок (учебный проект) 
+
+              </h3>
+              <div class="task__descript space-around">
+                <div class="project__photo">
+                  <img src="assets/img/bet1.png" alt="" class="project__img" />
+                </div>
+                <div class="project__photo">
+                  <img src="assets/img/bet2.png" alt="" class="project__img" />
+                </div>
+                <div class="project__photo">
+                  <img src="assets/img/bet3.png" alt="" class="project__img" />
+                </div>
+              </div>
+              
+                <a class="pdf__link" href="https://app-form-tutorial.web.app" target="_blank">Посмотреть проект<i class='bx bx-chevrons-right pdf__icon'></i></a>
+              
+              <div class="experience__description project__description bd-grid">
+                <div class="project__description__label">Обеспечение проекта / используемые технологии:</div>
+                <div class="project__description__text">Firebase backend функционал на основе облачных технологий Google Cloud, база данных Firebase Database, 
+                  библиотека REACT - разработка компонентов интерфейса, JavaScript, CSS, HTML, Node.JS, Chart.JS
+                </div>
+              </div>
+            </div>
+
+            <div class="certificate__container bd-grid">
+              <h3 class="project__name">
+                Мобильная игра Быки и Коровы (Google Play)
+
+              </h3>
+              <div class="task__descript space-around">
+                <div class="project__photo">
+                  <img src="assets/img/game1.png" alt="" class="project__img" />
+                </div>
+                <div class="project__photo">
+                  <img src="assets/img/game2.png" alt="" class="project__img" />
+                </div>
+                <div class="project__photo">
+                  <img src="assets/img/game3.png" alt="" class="project__img" />
+                </div>
+              </div>
+              
+                <a class="pdf__link" href="https://play.google.com/store/apps/details?id=com.FOGApatityCompany.BullsCows" target="_blank">Посмотреть проект<i class='bx bx-chevrons-right pdf__icon'></i></a>
+              
+              <div class="experience__description project__description bd-grid">
+                <div class="project__description__label">Обеспечение проекта / используемые технологии:</div>
+                <div class="project__description__text">Разработка игры под Android в среде UNITY, графика - GIMP, InkScape, 3D моделирование - Blender 3D
+                </div>
+              </div>
+            </div>
+
+            <div class="certificate__container bd-grid">
+              <h3 class="project__name">
+                YouTube канал FOGDIY
+
+              </h3>
+              <div class="task__descript space-around">
+                <div class="project__photo">
+                  <img src="assets/img/yt1.png" alt="" class="project__img" />
+                </div>
+                <div class="project__photo">
+                  <img src="assets/img/yt2.png" alt="" class="project__img" />
+                </div>
+
+              </div>
+              
+                <a class="pdf__link" href="https://www.youtube.com/c/FOGDIY" target="_blank">Перейти на канал<i class='bx bxl-youtube pdf__icon'></i></a>
+              
+              <div class="experience__description project__description bd-grid">
+                <div class="project__description__label">Обеспечение проекта / используемые технологии:</div>
+                <div class="project__description__text">Видеомонтаж KDEnlive, Sony las vegas, графика - GIMP, InkScape, Blender 3D
+                </div>
+              </div>
+            </div>
+
+
+
+          </section>
+
+          <!-- ========== INTERESTS ========== -->
+          <section class="interests section">
+            <h2 class="section-title">Интересы</h2>
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-microchip interests__icon"></i>
+                <span class="interests__name">DIY</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bxl-unity interests__icon"></i>
+                <span class="interests__name">GameDev</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-joystick interests__icon"></i>
+                <span class="interests__name">Видеоигры</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interests__name">Чтение</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-football interests__icon"></i>
+                <span class="interests__name">Футбол</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
